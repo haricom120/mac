@@ -1,0 +1,42 @@
+<!DOCTYPE=html>
+<html>
+    <head>
+    <title>Start JQ
+        </title>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+        <style>
+            .red{
+                color: red;
+                }
+            .green{
+                color: green;
+            }
+        
+        
+        </style>
+        <script>
+        $(document).ready(function(){
+            /*
+            $('.mylink').on('mouseenter',function(){
+                 $('h1').addClass('red');
+            });
+            $('.mylink').on('mouseleave',function(){
+                 $('h1').removeClass('red');
+            });
+            */
+           $('.mylink').click(function(){
+               $('h1').append('<h3>hello hari</h3>')
+           })
+        });
+        
+        
+        </script>
+    </head>
+    <body>
+    <h1>lets do it</h1>
+    <a href="#" class='mylink'>click me</a>
+    </body>
+
+</html>

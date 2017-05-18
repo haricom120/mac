@@ -1,0 +1,74 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{font-family: arial;
+font-size: 18px;}
+
+
+h1{
+ color: green;
+    font-size: 40px;
+    font-family: apple chancery;
+    margin-bottom: 20px;margin-top: 20px;
+}
+
+
+h2{
+ color: red;
+    font-size: 25px;
+    font-family: didot;margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.para1{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.author{padding-top: 20px;
+    border-top: 1px soild #101010;
+}
+
+.container {
+    width: 1140px;
+    margin:20px auto 20px auto;
+}
+
+.middle {
+    width: 75%;
+float: left;padding-right: 30px;
+position: relative;}
+
+.dummy {
+    width: 25%;
+    float: left
+}
+
+.post1 {
+    margin-bottom: 40px
+}
+
+.author img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+.author-text{float: left;font-size: 35px;
+    margin-top: 25px;margin-left: 15px;
+}
+
+.middle img{
+    height: 150px;width: auto;border-radius: 85%;
+}
+.date {position: absolute;
+    top: 10px;right: 30px;
+    
+}
