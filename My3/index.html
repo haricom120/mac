@@ -6,9 +6,37 @@
             <header></header>
             <section>
                 <form>
-                    <input>
-                    <input>
-                    <input>
+                    <div>
+                        <label for="FirstName">Applicant First Name</label>
+                        <input type="text" id="FirstName" name="FirstName" placeholder="Firstname">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="LastName">Applicant Last Name</label>
+                        <input type="text" id="LastName" name="LastName" placeholder="Lastname">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Gender">Applicant Gender</label>
+                        <div id="Gender">
+                            <label for="male">male</label>
+                            <input type="radio" id="male" name="Gender" value="male">
+
+                            <label for="female">female</label>
+                            <input type="radio" id="female" name="Gender" value="female">
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="seniorCitizen">Is Applicant Senior Citizen?</label>
+                        <input type="checkbox" id="seniorCitizen" name="seniorCitizen">
+                    </div>
+                    <button type="submit" id="submit" name="submit">
+                        <span>SUBMIT</span>
+                    </button>
+                    <button type="reset" id="reset" name="cancel">
+                        <span>CANCEL</span>
+                    </button>
                 </form>
             </section>
             <footer></footer>
@@ -16,3 +44,15 @@
     </body>
 
 </HTML>
+
+
+<!................
+git status
+git init
+- git add
+- git commit -m “…..”
+- git remote add origin “git repo link”
+- git push -u origin master
+- git log
+- git --help
+>
