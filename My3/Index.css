@@ -1,0 +1,19 @@
+.newLicence{
+    width: 250px;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+
+label{
+    display: inline-block;
+}
+
+label,input,button{
+    margin-bottom: 5px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0 10px;
+}
