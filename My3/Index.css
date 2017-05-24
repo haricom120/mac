@@ -1,7 +1,13 @@
+body{
+    background: #c8b4f3;
+}
+
 .newLicence{
     width: 250px;
     border: 2px solid #000;
-    margin: 0 auto;
+    margin: 50px auto;
+    border-radius: 5px;
+    background: #c9bbf6;
 }
 
 label{
@@ -9,11 +15,52 @@ label{
 }
 
 label,input,button{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+     border-radius: 10px;
 }
 
-ul li{
+ul{
+    position: fixed;
+    top: 0;
+    left: 125px;
+    
+}
+li{
+    width: 100px;
     list-style-type: none;
     display: inline-block;
     margin:0 10px;
+    border: 2px solid #1626e7;
+    border-radius: 10px;
+    background: #0c65a5;
+    color: white;
+    text-align: center;
+}
+
+button[type="submit"]{
+    border: 2px solid #b1060b;
+    background: #a2f96e;
+    border-radius: 10px;
+    color: black;
+}
+
+button[type="submit"]:hover{
+    border: 2px solid #8eeea1;
+    background: #cb2a56;
+    border-radius: 10px;
+    color: black;
+}
+
+button[type="reset"]{
+    border: 2px solid #1626e7;
+    background: #b02030;
+    border-radius: 10px;
+    color: white;
+}
+
+button[type="reset"]:hover{
+    border: 2px solid #b02030;
+    background: #1626e7;
+    border-radius: 10px;
+    color: white;
 }

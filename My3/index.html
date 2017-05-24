@@ -4,26 +4,28 @@
     <link type="text/css" rel="stylesheet" href="Index.css">
     <body>
         <article>
-            <header>
-                <ul>
+            
+                <div>
+                    <ul>
                     <li>About us</li>
                     <li>Contact us</li>
                     <li>find us</li>
                     <li>move us</li>
                 </ul> 
-            </header>
+                </div>
+                
             <section>
                 <form class="newLicence">
                     <div>
                         <label for="FirstName">Applicant First Name</label>
                         <input type="text" id="FirstName" name="FirstName" placeholder="Firstname">
                     </div>
-                    
+                    <br>
                     <div>
                         <label for="LastName">Applicant Last Name</label>
                         <input type="text" id="LastName" name="LastName" placeholder="Lastname">
                     </div>
-                   
+                   <br>
                     <div>
                         <label for="Gender">Applicant Gender</label>
                         <div id="Gender">
@@ -33,11 +35,12 @@
                             <input type="radio" id="female" name="Gender" value="female">
                         </div>
                     </div>
-                    
+                    <br>
                     <div>
                         <label for="seniorCitizen">Is Applicant Senior Citizen?</label>
                         <input type="checkbox" id="seniorCitizen" name="seniorCitizen">
                     </div>
+                    <br>
                     <button type="submit" id="submit" name="submit">
                         <span>SUBMIT</span>
                     </button>
